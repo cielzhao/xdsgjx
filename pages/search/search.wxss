@@ -62,8 +62,15 @@ button[type=default][plain].search-btn {
 }
 
 .author {
-  margin-top: 100rpx;
+  margin-top: 60rpx;
 }
 .list-item {
   margin: 10rpx;
+}
+
+.hot-search {
+	margin-top: 20px;
+}
+.hot-search-text {
+	margin-right: 10px;
 }
