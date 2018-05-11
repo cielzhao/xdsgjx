@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <view class="search iconfont icon-search">
-    <input bindinput="inputText" class="search-input" placeholder="请输入关键字" auto-focus maxlength="50" />
+    <input value="{{inputText}}" class="search-input" placeholder="请输入关键字" auto-focus maxlength="50" />
 	<button bindtap="clearInput" class="close" type="default" size="mini" plain="true" hover-class="none">X</button>
     <button bindtap="toSearch" class="search-btn" type="default" size="mini" plain="true" hover-class="none">搜索</button>
   </view>
