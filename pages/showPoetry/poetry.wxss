@@ -1,0 +1,14 @@
+@import "../../wxParse/wxParse.wxss";
+.container {
+	padding: 15px;
+}
+.poetry-title {
+	font-size: 36rpx;
+}
+.poetry-author {
+	margin: 15px 0;
+}
+.wxParse {
+	margin: 0;
+	font-size: 32rpx;
+}

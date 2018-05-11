@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="about">
+    <view class="about-title">关于作者</view>
+    <view class="about-con">
+    	<view class="about-con-list">
+    		<text class="list-name">Ciel</text>
+    		<block class="list-para">
+    			<text class="list-para-item">90后，巨蟹座。</text>  
+    		</block>
+    	</view>   	
+    </view>
+  </view>  	
+  <image bindtap="previewImage" class="author-code" src="../../images/author.jpg" background-size="cover"></image>
+</view>

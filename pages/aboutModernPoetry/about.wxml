@@ -1,0 +1,34 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="about">
+    <view class="about-title">关于现代诗</view>
+    <view class="about-con">
+    	<view class="about-con-list">
+    		<text class="list-name">1.概念</text>
+    		<block class="list-para">
+    			<text class="list-para-item">现代诗也叫“白话诗”，最早可追源到清末，是诗歌的一种，与古典诗歌相比而言，虽都为感于物而作，但一般不拘格式和韵律。</text>
+    			<text class="list-para-item">现代诗形式自由，意涵丰富，意象经营重于修辞运用，完全突破了古诗“温柔敦厚，哀而不怨”的特点，更加强调自由开放和直率陈述与进行“可感与不可感之间”的沟通。</text>
+    		</block>
+    	</view>
+    	<view class="about-con-list">
+    		<text class="list-name">2.特点</text>
+    		<block class="list-para">
+    			<text class="list-para-item">现代诗形式自由，意涵丰富，意象经营重于修辞运用，与古诗相比，虽都为感于物而作，都是心灵的映现，但其完全突破了古诗“温柔敦厚，哀而不怨”的特点，更加强调自由开放和直率陈述与进行“可感与不可感之间”的沟通。</text>
+    			<text class="list-para-item">现代诗的主流是自由体新诗。自由体新诗是“五四”新文化运动的产物，形式上采用白话，打破了旧体诗的格律束缚，内容上主要是反映新生活，表现新思想。</text>
+    		</block>
+    	</view>
+    	<view class="about-con-list">
+    		<text class="list-name">3.分类</text>
+    		<block class="list-para">
+    			<text class="list-para-item">按形式分：格律诗、自由诗</text>
+	    		<text class="list-para-item">按体裁分：童话诗、寓言诗、散文诗、韵脚诗等。</text>
+	    		<text class="list-para-item">按表达方式分：叙事诗、抒情诗</text>
+	    		<text class="list-para-item">按长短分：微诗、小诗、短诗、长诗</text>
+    		</block>
+    	</view>
+    </view>
+    <view>
+    	
+    </view>   	
+  </view>
+</view>

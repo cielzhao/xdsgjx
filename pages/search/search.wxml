@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="search iconfont icon-search">
+    <input class="search-input" placeholder="请输入关键字" auto-focus maxlength="50" />
+	<button class="close" type="default" size="mini" plain="true" hover-class="none">X</button>
+    <button class="search-btn" type="default" size="mini" plain="true" hover-class="none">搜索</button>
+  </view>
+  <view class="list author">
+	  <button class="list-item" type="default" size="mini">三毛</button>
+	  <button class="list-item" type="default" size="mini">顾城</button>
+	  <button class="list-item" type="default" size="mini">舒婷</button>
+	  <button class="list-item" type="default" size="mini">海子</button>
+	  <button class="list-item" type="default" size="mini">徐志摩</button>
+  </view>
+</view>

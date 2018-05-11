@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/search/search",
+    "pages/me/me",
+    "pages/aboutModernPoetry/about",
+    "pages/aboutAuthor/about",
+    "pages/showPoetry/poetry",
+    "pages/showPoetryAuthor/poetryAuthor"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "现代诗歌精选",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "images/tab_eye.png",
+      "selectedIconPath": "images/tab_eye_s.png",
+      "text": "精选"
+    }, {
+      "pagePath": "pages/search/search",
+      "iconPath": "images/tab_search.png",
+      "selectedIconPath": "images/tab_search_s.png",
+      "text": "查询"
+    }, {
+      "pagePath": "pages/me/me",
+      "iconPath": "images/tab_user.png",
+      "selectedIconPath": "images/tab_user_s.png",
+      "text": "关于"
+    }]
+  }
+}

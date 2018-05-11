@@ -1,0 +1,21 @@
+.about-title {
+	padding: 15px;
+	padding-bottom: 0;
+}
+.about-con-list {
+	padding: 15px;
+}
+.list-name {
+	display: block;
+	margin-bottom: 10px;
+	color:#666;
+}
+.list-para-item {
+	display: block;
+	margin-bottom: 10px;
+	color:#666;	
+}
+.author-code {
+	width: 320px;
+	height: 320px;
+}

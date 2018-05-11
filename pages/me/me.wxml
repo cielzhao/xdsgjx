@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="me">
+  	<image class="me-bg" src="../../images/me_bg.jpg"></image>
+  	<image bindtap="bindViewTap" class="me-avatar" src="../../images/xdsgjx.png" background-size="cover"></image>
+  	<text class="me-nickname">现代诗歌精选</text>
+  </view>
+  <view class="about">
+  	<view bindtap="toModernPoetry" class="about-list collect iconfont icon-emoji_fill">
+  		关于现代诗
+  	</view>
+  	<view bindtap="toAuthor" class="about-list author iconfont icon-emoji_fill">
+  		关于作者
+  	</view>
+  </view>
+</view>

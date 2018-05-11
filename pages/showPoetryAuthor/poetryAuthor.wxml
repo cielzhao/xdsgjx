@@ -1,0 +1,18 @@
+<import src="../../wxParse/wxParse.wxml"/>
+<view class="container">
+  <view class="poetry">
+    <view class="poetry-title">{{curPoetry.poetryAuthor[0].authorName}}</view>
+	<view class="poetry-author wxParse">
+	  <template is="wxParse" data="{{wxParseData:curPoetryAuthorInfo.nodes}}"/>
+	</view> 
+	<view class="poetry-view">
+		<view class="poetry-title">作品：</view>
+		<view class="poetry-list"  bindtap="toPoetryDetail" id="{{curPoetry.poetryId}}">
+			<button type="default" size="mini">{{curPoetry.poetryName}}</button>
+		</view>	
+	</view>  
+  </view>  	
+  <view wx-if="{{curPoetry.poetryAuthor[0].authorName === '三毛'}}">
+  	<audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop></audio>
+  </view> 
+</view>

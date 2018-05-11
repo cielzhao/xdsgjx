@@ -1,0 +1,12 @@
+<import src="../../wxParse/wxParse.wxml"/>
+<view class="container">
+  <view class="poetry">
+    <view class="poetry-title">{{curPoetry.poetryName}}</view>
+    <view class="poetry-author">
+    	<button type="default" size="mini" bindtap="toPoetryAuthor">{{curPoetry.poetryAuthor}}</button>
+	</view>   
+    <view class="wxParse">
+	  <template is="wxParse" data="{{wxParseData:curPoetryCon.nodes}}"/>
+	</view>   
+  </view> 	
+</view>
